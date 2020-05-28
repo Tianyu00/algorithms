@@ -1,3 +1,5 @@
+# reference: https://towardsdatascience.com/course-1-algorithmic-toolbox-part-3-divide-and-conquer-dd9022bfa2c0
+
 # Uses python3
 import sys
 import numpy as np

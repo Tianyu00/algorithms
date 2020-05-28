@@ -1,3 +1,5 @@
+# reference: https://medium.com/@ssbothwell/counting-inversions-with-merge-sort-4d9910dc95f0
+
 # Uses python3
 import sys
 

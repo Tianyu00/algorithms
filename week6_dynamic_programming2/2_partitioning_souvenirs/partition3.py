@@ -1,3 +1,6 @@
+# reference: https://stackoverflow.com/questions/4803668/3-partition-problem
+# reference: https://github.com/anoubhav/Coursera-Algorithmic-Toolbox/blob/master/assignment%20solutions/6.2%20partition%20souvenirs.py
+
 # Uses python3
 import sys
 import itertools
