@@ -83,7 +83,7 @@ Compose the largest number out of a set of integers.
 Say, input: 21, 2, output: 221.
 
 ### week 4 divide and conquer
-[detailed problem description](week3_greedy_algorithms/week4_divide_and_conquer.pdf)
+[detailed problem description](week4_divide_and_conquer/week4_divide_and_conquer.pdf)
 
 #### 1 [Binary Search](week4_divide_and_conquer/1_binary_search/binary_search.py)
 
@@ -110,7 +110,7 @@ You are given a set of points on a line and a set of segments on a line. The goa
 Given <img src='https://latex.codecogs.com/gif.latex?n'> points on a plane, find the smallest distance between a pair of two (different) points. 
 
 ### week 5 dynamic programming1
-[detailed problem description](week3_greedy_algorithms/week5_dynamic_programming1.pdf)
+[detailed problem description](week5_dynamic_programming1/week5_dynamic_programming1.pdf)
 
 #### 1 [Money Change Again](week5_dynamic_programming1/1_money_change_again/change_dp.py)
 
@@ -135,3 +135,26 @@ Example: input: [2 7 5], [2 5], output: 2
 #### 5 [Longest Common Subsequence of Three Sequences](week5_dynamic_programming1/5_longest_common_subsequence_of_three_sequences/lcs3.py)
 
 Compute the length of a longest common subsequence of three sequences.
+
+### week 6 dynamic programming2
+[detailed problem description](week6_dynamic_programming2/week5_dynamic_programming2.pdf)
+
+#### 1 [Maximum Amount of Gold](week6_dynamic_programming2/1_maximum_amount_of_gold/knapsack.py)
+Given <img src='https://latex.codecogs.com/gif.latex?n'> gold bars, find the maximum weight of gold that fits into a bag of capacity <img src='https://latex.codecogs.com/gif.latex?W'>. (Discrete knapsack problem without repetition)
+
+#### 2 [Partitioning Souvenirs](week6_dynamic_programming2/2_partitioning_souvenirs/partition3.py)
+You and two of your friends have just returned back home after visiting various countries. Now you would like to evenly split all the souvenirs that all three of you bought.
+
+Example:\
+Input: 3 3 3 3, Output: 0\
+Input: 17 59 34 57 17 23 67 1 18 2 59, Output:1\
+(34 + 67 + 17 = 23 + 59 + 1 + 17 + 18 = 59 + 2 + 57)
+
+#### 3 [Maximum Value of an Arithmetic Expression](week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.py)
+
+Find the maximum value of an arithmetic expression by specifying the order of applying its arithmetic operations using additional parentheses.
+
+Example:\
+Input: 5-8+7*4-8+9\
+Output: 200\
+200 = (5 − ((8 + 7) × (4 − (8 + 9))))
