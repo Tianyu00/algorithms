@@ -2,7 +2,7 @@
 
 The problems here come from coursera course 'Algorithm toolbox'.
 
-They include problems about [greedy algorithms](#week-3-greedy-algorithms), [divide and conquer](#week-4-divide-and-conquer), and dynamic programming [1](#week-5-dynamic-programming1), [2](#week-5-dynamic-programming2) and some other problems [week1](#week-1-programming-challenges), [week2](#week-2-algorithmic-warmup). The solutions are all original.
+They include problems about [Greedy Algorithms](#week-3-greedy-algorithms), [Divide and Conquer](#week-4-divide-and-conquer), Dynamic Programming [1](#week-5-dynamic-programming1), [2](#week-5-dynamic-programming2), and some other problems [week1](#week-1-programming-challenges), [week2](#week-2-algorithmic-warmup). The solutions are all original.
 
 ### week 1 programming challenges
 
@@ -82,4 +82,29 @@ Compose the largest number out of a set of integers.
 
 Say, input: 21, 2, output: 221.
 
+### week 4 divide and conquer
+[detailed problem description](week3_greedy_algorithms/week4_divide_and_conquer.pdf)
 
+#### 1 [Binary Search](week4_divide_and_conquer/1_binary_search/binary_search.py)
+
+The goal in this code problem is to implement the binary search algorithm.
+
+#### 2 [Majority Element](week4_divide_and_conquer/2_majority_element/majority_element.py)
+
+The goal in this code problem is to check whether an input sequence of length <img arc='https://latex.codecogs.com/gif.latex?n'> contains a majority element (an element that appears appears strictly more than <img arc='https://latex.codecogs.com/gif.latex?n/2'> times).
+
+#### 3 [Improving Quick Sort](week4_divide_and_conquer/3_improving_quicksort/sorting.py)
+
+To force the given implementation of the quick sort algorithm to efficiently process sequences with few unique elements, your goal is replace a 2-way partition with a 3-way partition. That is, your new partition procedure should partition the array into three parts: <img src='https://latex.codecogs.com/gif.latex?%3C%20x'> part, <img src='https://latex.codecogs.com/gif.latex?%3Dx'> part, and <img src='https://latex.codecogs.com/gif.latex?%3Ex'> part.
+
+#### 4 [Number of Inversions](week4_divide_and_conquer/4_number_of_inversions/inversions.py)
+
+The goal in this problem is to count the number of inversions of a given sequence. An inversion of a sequence <img src='https://latex.codecogs.com/gif.latex?a_0%2Ca_1%2C%5Ccdots%2Ca_%7Bn-1%7D'> is a pair of indices <img src='https://latex.codecogs.com/gif.latex?0%5Cle%20i%3Cj%3C%3Dn'> such that <img src='https://latex.codecogs.com/gif.latex?a_i%3Ea_j'>. The number of inversions of a sequence in some sense measures how close the sequence is to being sorted. 
+
+#### 5 [Organizing a Lottery](week4_divide_and_conquer/5_organizing_a_lottery/points_and_segments.py)
+
+You are given a set of points on a line and a set of segments on a line. The goal is to compute, for each point, the number of segments that contain this point.
+
+#### 6 [Closest Points](week4_divide_and_conquer/6_closest_points/closest.py)
+
+Given <img src='https://latex.codecogs.com/gif.latex?n'> points on a plane, find the smallest distance between a pair of two (different) points. 
