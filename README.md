@@ -1,4 +1,4 @@
-# algorithms
+# Implementing Common Algorithms
 
 The problems here come from coursera course 'Algorithm toolbox'.
 
@@ -108,3 +108,30 @@ You are given a set of points on a line and a set of segments on a line. The goa
 #### 6 [Closest Points](week4_divide_and_conquer/6_closest_points/closest.py)
 
 Given <img src='https://latex.codecogs.com/gif.latex?n'> points on a plane, find the smallest distance between a pair of two (different) points. 
+
+### week 5 dynamic programming1
+[detailed problem description](week3_greedy_algorithms/week5_dynamic_programming1.pdf)
+
+#### 1 [Money Change Again](week5_dynamic_programming1/1_money_change_again/change_dp.py)
+
+Your goal now is to apply dynamic programming for solving the Money Change Problem for denominations 1, 3, and 4. (discrete nnapsack problem with repetition)
+
+#### 2 [Primitive Calculator](week5_dynamic_programming1/2_primitive_calculator/primitive_calculator.py)
+
+You are given a primitive calculator that can perform the following three operations with the current number <img src='https://latex.codecogs.com/gif.latex?x'>: multiply <img src='https://latex.codecogs.com/gif.latex?x'> by 2, multiply <img src='https://latex.codecogs.com/gif.latex?x'> by 3, or add 1 to <img src='https://latex.codecogs.com/gif.latex?x'>. Your goal is given a positive integer <img src='https://latex.codecogs.com/gif.latex?n'>, find the minimum number of operations needed to obtain the number <img src='https://latex.codecogs.com/gif.latex?n'> starting from the number 1.
+
+#### 3 [Edit Distance](week5_dynamic_programming1/3_edit_distance/edit_distance.py)
+
+The goal of this problem is to implement the algorithm for computing the edit distance between two strings.
+
+The edit distance between two strings is the minimum number of operations (insertions, deletions, and substitutions of symbols) to transform one string into another. It is a measure of similarity of two strings.
+
+#### 4 [Longest Common Subsequence of Two Sequences](week5_dynamic_programming1/4_longest_common_subsequence_of_two_sequences/lcs2.py)
+
+Compute the length of a longest common subsequence of two sequences.
+
+Example: input: [2 7 5], [2 5], output: 2
+
+#### 5 [Longest Common Subsequence of Three Sequences](week5_dynamic_programming1/5_longest_common_subsequence_of_three_sequences/lcs3.py)
+
+Compute the length of a longest common subsequence of three sequences.
